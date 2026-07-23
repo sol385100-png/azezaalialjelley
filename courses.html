@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>الكورسات - تطوير+</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav>
+    <div class="logo">تطوير+</div>
+    <ul class="links">
+      <li><a href="home.html">الرئيسية</a></li>
+      <li><a href="courses.html">الكورسات</a></li>
+      <li><a href="about.html">من نحن</a></li>
+      <li><a href="contact.html">تواصل معنا</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="container">
+  <h1>الكورسات المتاحة</h1>
+  
+  <!-- شريط البحث -->
+  <input type="text" id="search" placeholder="🔍 ابحث عن كورس..." style="width:100%; padding:14px; border-radius:12px; border:2px solid #E2E8F0; margin-bottom:25px; font-size:16px;">
+
+  <!-- الكروت -->
+  <div id="courses" style="display:grid; gap:20px;">
+    <div class="card" data-cat="برمجة">
+      <h2>كورس HTML و CSS</h2>
+      <p>اتعلم تعمل مواقع من الصفر في 7 ايام</p>
+      <span style="color:var(--sec); font-weight:700;">المستوى: مبتدئ</span>
+    </div>
+    <div class="card" data-cat="تصميم">
+      <h2>كورس UI/UX</h2>
+      <p>صمم واجهات احترافية زي تطبيقات الموبايل</p>
+      <span style="color:var(--sec); font-weight:700;">المستوى: متوسط</span>
+    </div>
+    <div class="card" data-cat="برمجة">
+      <h2>كورس JavaScript</h2>
+      <p>خلي موقعك تفاعلي و حي</p>
+      <span style="color:var(--sec); font-weight:700;">المستوى: متقدم</span>
+    </div>
+    <div class="card" data-cat="تسويق">
+      <h2>كورس التسويق الرقمي</h2>
+      <p>كيف تبيع اي منتج على الانترنت</p>
+      <span style="color:var(--sec); font-weight:700;">المستوى: مبتدئ</span>
+    </div>
+  </div>
+</div>
+
+<footer><p>© 2026 منصة تطوير+</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
